@@ -1,0 +1,103 @@
+﻿1>------ Build started: Project: pgevent, Configuration: vs2017_Debug Win32 ------
+2>------ Build started: Project: libpq, Configuration: vs2017_Debug Win32 ------
+3>------ Build started: Project: libpgtypes, Configuration: vs2017_Debug Win32 ------
+4>------ Build started: Project: postgres, Configuration: vs2017_Debug Win32 ------
+1>   Creating library C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pgevent.lib and object C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pgevent.exp
+1>pgevent.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pgevent.dll
+5>------ Build started: Project: pg_config, Configuration: vs2017_Debug Win32 ------
+4>Running bison on src\backend\bootstrap\bootparse.y
+4>'perl' is not recognized as an internal or external command,
+4>operable program or batch file.
+4>Running flex on src\backend\bootstrap\bootscanner.l
+4>'perl' is not recognized as an internal or external command,
+4>operable program or batch file.
+4>Running bison on src\backend\parser\gram.y
+4>'perl' is not recognized as an internal or external command,
+4>operable program or batch file.
+4>Running flex on src\backend\parser\scan.l
+4>'perl' is not recognized as an internal or external command,
+4>operable program or batch file.
+4>Running bison on src\backend\replication\repl_gram.y
+4>'perl' is not recognized as an internal or external command,
+4>operable program or batch file.
+4>Running flex on src\backend\replication\repl_scanner.l
+4>'perl' is not recognized as an internal or external command,
+4>operable program or batch file.
+4>Running flex on src\backend\utils\misc\guc-file.l
+4>'perl' is not recognized as an internal or external command,
+4>operable program or batch file.
+4>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 9009.
+4>Done building project "postgres.vcxproj" -- FAILED.
+5>pg_config.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pg_config.exe
+6>------ Build started: Project: pg_controldata, Configuration: vs2017_Debug Win32 ------
+7>------ Build started: Project: pg_resetxlog, Configuration: vs2017_Debug Win32 ------
+3>   Creating library C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libpgtypes.lib and object C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libpgtypes.exp
+3>libpgtypes.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libpgtypes.dll
+2>   Creating library C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libpq.lib and object C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libpq.exp
+2>libpq.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libpq.dll
+8>------ Build started: Project: adminpack, Configuration: vs2017_Debug Win32 ------
+7>pg_resetxlog.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pg_resetxlog.exe
+9>------ Build started: Project: libecpg, Configuration: vs2017_Debug Win32 ------
+6>pg_controldata.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pg_controldata.exe
+10>------ Build started: Project: pg_ctl, Configuration: vs2017_Debug Win32 ------
+8>LINK : fatal error LNK1181: cannot open input file 'postgres.lib'
+8>Done building project "adminpack.vcxproj" -- FAILED.
+11>------ Build started: Project: psql, Configuration: vs2017_Debug Win32 ------
+12>------ Build started: Project: pg_dump, Configuration: vs2017_Debug Win32 ------
+11>Running flex on src\bin\psql\psqlscan.l
+11>'perl' is not recognized as an internal or external command,
+11>operable program or batch file.
+11>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 9009.
+11>Done building project "psql.vcxproj" -- FAILED.
+13>------ Build started: Project: pg_dumpall, Configuration: vs2017_Debug Win32 ------
+13>pg_dumpall.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pg_dumpall.exe
+10>pg_ctl.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pg_ctl.exe
+14>------ Build started: Project: pg_restore, Configuration: vs2017_Debug Win32 ------
+15>------ Build started: Project: createdb, Configuration: vs2017_Debug Win32 ------
+9>execute.c
+9>memory.c
+9>misc.c
+9>prepare.c
+9>sqlda.c
+9>typename.c
+9>path.c
+9>pgstrcasecmp.c
+9>thread.c
+9>c:\development\op3d_active\postgresql-9.3.2\src\port\thread.c(139): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+9>c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): note: see declaration of 'gethostbyname'
+9>   Creating library C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libecpg.lib and object C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libecpg.exp
+9>libecpg.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\libecpg.dll
+9>Done building project "libecpg.vcxproj".
+16>------ Build started: Project: createlang, Configuration: vs2017_Debug Win32 ------
+12>parallel.c
+12>pg_backup_archiver.c
+12>pg_backup_db.c
+12>pg_backup_directory.c
+12>pg_backup_null.c
+12>pg_backup_tar.c
+12>pg_backup_utils.c
+12>pg_dump.c
+12>pg_dump_sort.c
+12>pg_dump.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pg_dump.exe
+17>------ Build started: Project: createuser, Configuration: vs2017_Debug Win32 ------
+15>kwlookup.c
+15>dumputils.c
+15>keywords.c
+15>common.c
+15>createdb.c
+15>createdb.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\createdb.exe
+18>------ Build started: Project: dropdb, Configuration: vs2017_Debug Win32 ------
+14>kwlookup.c
+14>compress_io.c
+14>dumputils.c
+14>keywords.c
+14>parallel.c
+14>pg_backup_archiver.c
+14>pg_backup_custom.c
+14>pg_backup_db.c
+14>pg_backup_directory.c
+14>pg_backup_null.c
+14>pg_backup_tar.c
+14>pg_backup_utils.c
+14>pg_restore.c
+14>pg_restore.vcxproj -> C:\Development\op3d_active\postgresql-9.3.2\vc141\Win32\vs2017_Debug\pg_restore.exe
