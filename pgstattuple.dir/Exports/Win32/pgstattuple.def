@@ -1,0 +1,12 @@
+EXPORTS
+  Pg_magic_func
+  pg_finfo_pg_relpages
+  pg_finfo_pgstatginindex
+  pg_finfo_pgstatindex
+  pg_finfo_pgstattuple
+  pg_finfo_pgstattuplebyid
+  pg_relpages
+  pgstatginindex
+  pgstatindex
+  pgstattuple
+  pgstattuplebyid

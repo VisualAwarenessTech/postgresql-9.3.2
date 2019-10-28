@@ -1,0 +1,3 @@
+EXPORTS
+  Pg_magic_func
+  geo_distance

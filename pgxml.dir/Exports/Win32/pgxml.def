@@ -1,0 +1,21 @@
+EXPORTS
+  Pg_magic_func
+  pg_finfo_xml_encode_special_chars
+  pg_finfo_xml_is_well_formed
+  pg_finfo_xpath_bool
+  pg_finfo_xpath_list
+  pg_finfo_xpath_nodeset
+  pg_finfo_xpath_number
+  pg_finfo_xpath_string
+  pg_finfo_xpath_table
+  pg_finfo_xslt_process
+  pgxml_parser_init
+  xml_encode_special_chars
+  xml_is_well_formed
+  xpath_bool
+  xpath_list
+  xpath_nodeset
+  xpath_number
+  xpath_string
+  xpath_table
+  xslt_process
