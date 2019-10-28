@@ -5,7 +5,6 @@ vc140
 vc141
 .vs
 **/obj/*
-**/bin/*
 **/release/*
 **/debug/*
 **/*.dir
